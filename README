@@ -1,0 +1,13 @@
+This is a script forked from: https://gist.github.com/JesseCrocker/8407623
+
+This script replays a gpx file and outputs to geanyshell
+
+Example usage:
+python playback-gpx.py -i 1 -r "-r 192.168.56.101" "docs/South On Topanga(1).gpx"
+
+
+08/21/2014
+
+added returnDefaultPath function so the script is more os independent
+added -r option so users can pass extra flags to geanyshell like an ip address
+added ability to pause execution of script with keyboard interrupt
