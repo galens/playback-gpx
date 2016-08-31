@@ -19,7 +19,7 @@ from subprocess import check_output
 
 def returnDefaultPath():
     if(platform.system() == 'Linux'):
-      return "/usr/bin/geanyshell"
+      return "/usr/bin/genyshell"
     elif(platform.system() == 'Windows'):
       return "C:\Program Files\Genymobile\Genymotion\genyshell.exe"
     elif(platform.system() == 'Darwin'):
