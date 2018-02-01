@@ -89,6 +89,11 @@ if __name__=='__main__':
 
     logging.debug("using genymotion shell at " + options.command)
 
+    if not os.path.exists(options.command):
+        logging.error("genymotion shell not found at " + options.command)
+        logging.info("specify the path of genymotion shell using the -g flag")
+        quit()
+
     for path in args:
         if not os.path.exists(path):
             logging.error(path + " not found")
