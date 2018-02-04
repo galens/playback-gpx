@@ -5,6 +5,9 @@ This script replays a gpx file and outputs to geanyshell
 Example usage:
 python playback-gpx.py -i 1 -r "-r 192.168.56.101" "docs/South On Topanga(1).gpx"
 
+02/01/2018
+
+show an error message if the genyshell cannot be found
 
 08/21/2014
 
